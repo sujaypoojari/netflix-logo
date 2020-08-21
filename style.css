@@ -1,0 +1,38 @@
+body {
+  background: #26242e;
+}
+
+.container {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 50%;
+  left: 50%;
+  width: 120px;
+  height: 200px;
+  overflow: hidden;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+span {
+  position: absolute;
+  width: 40px;
+  height: 200px;
+  background: #d81f26;
+}
+
+span:nth-child(1) {
+  right: 0;
+}
+
+span:nth-child(2) {
+  z-index: 1;
+  -webkit-box-shadow: 0 0 15px #000000;
+          box-shadow: 0 0 15px #000000;
+  left: 40px;
+  -webkit-transform: skewX(22deg);
+          transform: skewX(22deg);
+}
+/*# sourceMappingURL=style.css.map */
